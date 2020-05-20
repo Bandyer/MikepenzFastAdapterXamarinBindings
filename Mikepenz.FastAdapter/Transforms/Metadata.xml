@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='getAdapterPosition' and count(parameter)=1 and parameter[1][@type='Item']]/parameter[@name='item']" name="managedType">Com.Mikepenz.Fastadapter.IItem</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter']/class[@name='MutableSubItemList']/constructor[@name='MutableSubItemList' and count(parameter)=2 and parameter[1][@type='com.mikepenz.fastadapter.IParentItem&lt;?&gt;'] and parameter[2][@type='java.util.List&lt;E&gt;']]/parameter[2]" name="managedType">List&lt;ISubItem&gt;</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter']/class[@name='MutableSubItemList']/method[@name='containsAll' and count(parameter)=1 and parameter[1][@type='java.util.Collection&lt;? extends java.lang.Object&gt;']]/parameter[@name='elements']" name="managedType">System.Collections.ICollection</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter']/class[@name='MutableSubItemList']/method[@name='removeAll' and count(parameter)=1 and parameter[1][@type='java.util.Collection&lt;? extends java.lang.Object&gt;']]/parameter[@name='elements']" name="managedType">System.Collections.ICollection</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter']/class[@name='MutableSubItemList']/method[@name='retainAll' and count(parameter)=1 and parameter[1][@type='java.util.Collection&lt;? extends java.lang.Object&gt;']]/parameter[@name='elements']" name="managedType">System.Collections.ICollection</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter']/class[@name='MutableSubItemList']/method[@name='remove' and count(parameter)=1 and parameter[1][@type='E']]" name="managedName">removeItem</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter']/class[@name='MutableSubItemList']/method[@name='contains' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" name="managedName">containsItem</attr>
+    <remove-node path="/api/package[@name='com.mikepenz.fastadapter']/class[@name='MutableSubItemList']/method[@name='getSize' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mikepenz.fastadapter']/class[@name='MutableSubItemList']/method[@name='indexOf' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" />
+    <remove-node path="/api/package[@name='com.mikepenz.fastadapter']/class[@name='MutableSubItemList']/method[@name='lastIndexOf' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" />
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='add' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.util.List&lt;? extends Model&gt;']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='add' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='Model...']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='add' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;? extends Model&gt;']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='add' and count(parameter)=1 and parameter[1][@type='Model...']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='addInternal' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.util.List&lt;? extends Item&gt;']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='addInternal' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;? extends Item&gt;']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='clear' and count(parameter)=0]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='move' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='remove' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='removeRange' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='set' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='Model']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='set' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;? extends Model&gt;']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='setInternal' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='Item']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='setNewList' and count(parameter)=2 and parameter[1][@type='java.util.List&lt;? extends Model&gt;'] and parameter[2][@type='boolean']]" name="managedReturn">IItemAdapter</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='getAdapterItem' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']/method[@name='getAdapterPosition' and count(parameter)=1 and parameter[1][@type='Item']]/parameter[@name='item']" name="managedType">Java.Lang.Object</attr>
+    <add-node path="/api/package[@name='com.mikepenz.fastadapter.adapters']/class[@name='ModelAdapter']">
+        <method abstract="false" deprecated="not deprecated" final="false" name="getOrder" native="false" return="int" static="false" synchronized="false" visibility="public" />
+        <method abstract="false" deprecated="not deprecated" final="false" name="setOrder" native="false" return="void" static="false" synchronized="false" visibility="public">
+            <parameter name="value" type="int" />
+        </method>
+        <method abstract="false" deprecated="not deprecated" final="false" name="peekAdapterItem" native="false" return="Java.Lang.Object" static="false" synchronized="false" visibility="public">
+            <parameter name="position" type="int" />
+        </method>
+        <method abstract="false" deprecated="not deprecated" final="false" name="getFastAdapter" native="false" return="Com.Mikepenz.Fastadapter.FastAdapter" static="false" synchronized="false" visibility="public">
+        </method>
+        <method abstract="false" deprecated="not deprecated" final="false" name="setFastAdapter" native="false" return="void" static="false" synchronized="false" visibility="public">
+            <parameter name="adapter" type="Com.Mikepenz.Fastadapter.FastAdapter" />
+        </method>
+    </add-node>
+    <add-node path="/api/package[@name='com.mikepenz.fastadapter.utils']/class[@name='DefaultItemList']">
+        <method abstract="false" deprecated="not deprecated" final="false" name="get" native="false" return="Java.Lang.Object" static="false" synchronized="false" visibility="public">
+            <parameter name="param" type="int" />
+        </method>
+        <method abstract="false" deprecated="not deprecated" final="false" name="set" native="false" return="void" static="false" synchronized="false" visibility="public">
+            <parameter name="param1" type="int" />
+            <parameter name="value" type="Java.Lang.Object" />
+            <parameter name="param2" type="int" />
+        </method>
+    </add-node>
+    <add-node path="/api/package[@name='com.mikepenz.fastadapter']/class[@name='AbstractAdapter']">
+        <method abstract="false" deprecated="not deprecated" final="false" name="getAdapterItem" native="false" return="Java.Lang.Object" static="false" synchronized="false" visibility="public">
+            <parameter name="position" type="int" />
+        </method>
+        <method abstract="false" deprecated="not deprecated" final="false" name="getAdapterPosition" native="false" return="int" static="false" synchronized="false" visibility="public">
+            <parameter name="adapter" type="Java.Lang.Object" />
+        </method>
+    </add-node>
+    <add-node path="/api/package[@name='com.mikepenz.fastadapter.utils']/class[@name='DefaultIdDistributor']">
+        <method abstract="false" deprecated="not deprecated" final="false" name="nextId" native="false" return="long" static="false" synchronized="false" visibility="public">
+            <parameter name="param1" type="Java.Lang.Object" />
+        </method>
+    </add-node>
+    <remove-node path="/api/package[@name='com.mikepenz.fastadapter.select']/class[@name='SelectExtensionFactory']" />
+</metadata>

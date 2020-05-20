@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Mikepenz.FastAdapter.Extensions.Diff</id>
+    <version>5.0</version>
+    <title>Mikepenz.FastAdapter.Extensions.Diff</title>
+    <authors>Bandyer</authors>
+    <owners>Bandyer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>bandyer,android,mikepenz,android,fastadapter,extensions,diff,fastadapter-extensions-diff,xamarin</tags>
+    <license type="expression">Apache-2.0</license>
+    <description>Mikepenz's fastadapter-extensions-diff binding for Xamarin</description>
+    <summary>MikePenz's fastadapter-extensions-diff binding for Xamarin</summary>
+    <copyright>Copyright © Bandyer</copyright>
+    <projectUrl>https://github.com/Bandyer/MikepenzFastAdapterXamarinBindings</projectUrl>
+    <dependencies>
+      <group targetFramework="MonoAndroid">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="./bin/Release/Mikepenz.FastAdapter.Extensions.Diff.*" target="lib/MonoAndroid" />
+  </files>
+</package>

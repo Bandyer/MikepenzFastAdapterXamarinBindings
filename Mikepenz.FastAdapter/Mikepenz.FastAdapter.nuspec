@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Mikepenz.FastAdapter</id>
+    <version>5.0</version>
+    <title>Mikepenz.FastAdapter</title>
+    <authors>Bandyer</authors>
+    <owners>Bandyer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>bandyer,android,mikepenz,android,fastadapter,xamarin</tags>
+    <license type="expression">Apache-2.0</license>
+    <description>Mikepenz's fastadapter binding for Xamarin</description>
+    <summary>MikePenz's fastadapter binding for Xamarin</summary>
+    <copyright>Copyright © Bandyer</copyright>
+    <projectUrl>https://github.com/Bandyer/MikepenzFastAdapterXamarinBindings</projectUrl>
+    <dependencies>
+      <group targetFramework="MonoAndroid">
+         <dependency id="Xamarin.AndroidX.AppCompat" version="1.1.0" />
+        <dependency id="Xamarin.AndroidX.Annotation" version="1.1.0" />
+        <dependency id="Xamarin.AndroidX.RecyclerView" version="1.1.0" />
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.3.50.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="./bin/Release/Mikepenz.FastAdapter.*" target="lib/MonoAndroid" />
+  </files>
+</package>
